@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MenuItems">
+        <attr name="lefttext" format="string"></attr>
+        <attr name="lefticon" format="reference"></attr>
+        <attr name="centext" format="string"></attr>
+        <attr name="righttext" format="string"></attr>
+        <attr name="righticon" format="reference"></attr>
+        <attr name="iseditext" format="boolean"></attr>
+        <attr name="lefttextsize" format="integer"></attr>
+        <attr name="lefticonwidth" format="integer"></attr>
+        <attr name="righttextsize" format="integer"></attr>
+        <attr name="righticonwidth" format="integer"></attr>
+        <attr name="lefttextcolock" format="color"></attr>
+        <attr name="righttextcolock" format="color"></attr>
+        <attr name="centextsize" format="integer"></attr>
+        <attr name="centextcolock" format="color"></attr>
+    </declare-styleable>
+</resources>

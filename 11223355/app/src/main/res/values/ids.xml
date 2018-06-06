@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbar_view" type="id"/>
+    <item name="translucent_view" type="id"/>
+    <item name="leftetxt" type="id"/>
+    <item name="lefticon" type="id"/>
+    <item name="righticon" type="id"/>
+    <item name="editext" type="id"/>
+    <item name="righttext" type="id"/>
+    <item name="centtext" type="id"/>
+
+</resources>
