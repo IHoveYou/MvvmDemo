@@ -9,7 +9,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
- * Created by Lcc on 2017/12/14.
+ * 网络请求拦截器
+ * Created by Lxy 2017/12/14.
  * Desc:
  */
 

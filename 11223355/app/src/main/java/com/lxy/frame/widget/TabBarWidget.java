@@ -23,6 +23,7 @@ import java.util.List;
 
 /**
  * Created by LXY on 2018/5/14.
+ * 首页底部导航按钮自定义控件，未完成随便写写不要在意
  */
 
 public class TabBarWidget extends LinearLayout{

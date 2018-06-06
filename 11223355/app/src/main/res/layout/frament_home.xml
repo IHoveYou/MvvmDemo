@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout >
+    <data><variable
+        name="onclick"
+        type="com.lxy.frame.view.fragment.HomeFrament"/>
+    </data>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,6 +15,25 @@
     android:layout_height="222.5dp">
 
 </com.youth.banner.Banner>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="第一个按钮"
+        android:onClick="@{(view)->onclick.btnone(view)}"
+        />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="第3个按钮"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_homelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>
 </layout>

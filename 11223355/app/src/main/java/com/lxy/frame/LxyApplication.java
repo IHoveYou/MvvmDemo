@@ -12,6 +12,5 @@ public class LxyApplication extends BaseApplication{
     @Override
     public void onCreate() {
         super.onCreate();
-        Bmob.initialize(this, "44ac807c9aec4cbea76769cd40acb162");
     }
 }

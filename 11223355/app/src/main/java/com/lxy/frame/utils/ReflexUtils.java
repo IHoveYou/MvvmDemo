@@ -2,7 +2,6 @@ package com.lxy.frame.utils;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import g.method;
 
 /**
  * Created by LXY on 2018/6/5.
@@ -74,17 +73,17 @@ public class ReflexUtils {
             e.printStackTrace();
         }
     }
-    public static  Method getMethod (Object mclass,String name){
-        Class tab=mclass.getClass();
-
-        try {
-            Method method=tab.getMethod(name,null);
-            method.setAccessible(true);
-         return   method;
-
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
+//    public static  Method getMethod (Object mclass,String name){
+//        Class tab=mclass.getClass();
+//
+//        try {
+//            Method method=tab.getMethod(name,null);
+//            method.setAccessible(true);
+//         return   method;
+//
+//        } catch (NoSuchMethodException e) {
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
 }
